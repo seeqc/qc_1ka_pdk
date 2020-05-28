@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klayout-macro>
+ <description/>
+ <version/>
+ <category>drc</category>
+ <prolog/>
+ <epilog/>
+ <doc/>
+ <autorun>false</autorun>
+ <autorun-early>false</autorun-early>
+ <shortcut/>
+ <show-in-menu>true</show-in-menu>
+ <group-name>drc_scripts</group-name>
+ <menu-path>tools_menu.drc.end</menu-path>
+ <interpreter>dsl</interpreter>
+ <dsl-interpreter-name>drc-dsl-xml</dsl-interpreter-name>
+ <text>#DRC script for Seeqc's Quantum 1000A process in KLayout
+#Author: Dr. Naveen Kumar Katam, PhD
+#Contact: naveen@seeqc.com
+#Company: Seeqc Inc.
+#First release on May  28th 2020
+report("DRC report")
+
+# Drawing layers
+
+MN1     = input(34, 0)
+IN1    = input(32, 0)
+M0     = input(30, 0)
+I0   = input(31, 0)
+J1   = input(4, 0)
+A1       = input(5, 0)
+M1   = input(1, 0)
+R2      = input(9, 0)
+I1    = input(3, 0)
+M2     = input(6, 0)
+I2      = input(8, 0)
+M3     = input(10, 0)
+I3     = input(13, 0)
+R3    = input(11, 0)
+BMP_Cu     = input(12, 0)
+BMP_In     = input(15, 0)
+
+#Rules
+
+#------------------------------MN1 Layer------------------------------
+#MN1_WIDTH  #1.1
+min_MN1_width = 0.8 .um
+rule_MN1_width = MN1.width(min_MN1_width)
+rule_MN1_width.output("MN1_WIDTH: MN1 width &lt; 0.8 µm")
+
+#MN1_MN1_SPACE #1.2
+min_MN1_space = 1.0 .um
+rule_MN1_space = MN1.space(min_MN1_space)
+rule_MN1_space.output("MN1_MN1_SPACE: MN1-MN1 SPACE &lt; 1.0 µm")
+
+#IN1_MN1_SURROUND  #1.3
+min_IN1_MN1_enc  = 0.3 .um
+rule_IN1_MN1_enc  = MN1.enclosing(IN1, min_IN1_MN1_enc)
+rule_IN1_MN1_enc.output("IN1 surrounded by MN1&lt;0.3 µm")
+
+#---------------------------IN1 Layer -----------------------------------------
+ 
+#IN1_WIDTH  #2.1
+min_IN1_width = 0.8 .um
+rule_IN1_width = IN1.width(min_IN1_width)
+rule_IN1_width.output("IN1_WIDTH: IN1 width &lt; 1.0 µm")
+
+#rule 2.2 is covered under rule 1.3
+
+#IN1_M0_SPACE  #2.3
+min_IN1_M0_space = 0.3 .um
+rule_IN1_M0_space = IN1.separation(M0, min_IN1_M0_space)
+rule_IN1_M0_space.output("IN1_M0_SPACE: IN1_M0 SPACE &lt; 0.3 µm")
+
+
+#IN1_J1_SPACE  #2.4
+min_IN1_J1_space = 0.5 .um
+rule_IN1_J1_space = IN1.separation(J1, min_IN1_J1_space)
+rule_IN1_J1_space.output("IN1_J1_SPACE: IN1_J1 SPACE &lt; 0.5 µm")
+
+#-------------M0 Layer ------------------------------------------------------------
+#M0_WIDTH   #3.1
+min_M0_width = 0.5 .um
+rule_M0_width = M0.width(min_M0_width)
+rule_M0_width.output("M0_WIDTH: M0 width &lt; 0.5 µm")
+
+#M0_M0_SPACE  #3.2
+min_M0_space = 0.5 .um
+rule_M0_space = M0.space(min_M0_space)
+rule_M0_space.output("M0_M0_SPACE: M0-M0 SPACE &lt; 0.5 µm")
+
+#M0_I0_SPACE  #3.3
+min_M0_I0_space = 0.3 .um
+rule_M0_I0_space = M0.separation(I0, min_M0_I0_space)
+rule_M0_I0_space.output("M0_I0_SPACE: M0-I0 SPACE &lt; 0.3 µm")
+
+
+#-----------------I0 Layer---------------------------------------------------------------
+#I0_WIDTH  #4.1
+min_I0_width = 1.0 .um
+rule_I0_width = I0.width(min_I0_width)
+rule_I0_width.output("I0_WIDTH: I0 width &lt; 1.0 µm")
+
+#I0_J1_SPACE  #4.2
+min_I0_J1_space = 1.0 .um
+rule_I0_J1_space = I0.separation(J1, min_I0_J1_space)
+rule_I0_J1_space.output("I0_J1_SPACE: I0_J1 SPACE &lt; 1.0 µm")
+
+#I0_M1_SURROUND  #4.3
+min_I0_M1_enc  = 0.3 .um
+rule_I0_M1_enc  = M1.enclosing(I0, min_I0_M1_enc)
+rule_I0_M1_enc.output("I0 surrounded by M1&lt;0.3 µm")
+
+#I0_R2_SPACE  #4.4
+min_I0_R2_space = 0.3 .um
+rule_I0_R2_space = I0.separation(R2, min_I0_R2_space)
+rule_I0_R2_space.output("I0_R2_SPACE: I0-R2 SPACE &lt; 0.3 µm")
+
+#--------------------Junction Layers J1----------------------------------------------
+
+#J1_SIZE  #5.1
+min_J1_width = 0.6 .um
+rule_J1_width = J1.width(min_J1_width)
+rule_J1_width.output("J1 SIZE: DIAMETER &lt; 0.6 µm")
+
+#J1_SPACE  #5.2
+min_J1_space = 1.0 .um
+rule_J1_space = J1.space(min_J1_space)
+rule_J1_space.output("J1_SPACE: J1 separation &lt; 1.0 µm")
+
+#J1_A1_SURROUND  #5.3
+min_J1_A1_enc  = 0.5 .um
+rule_J1_A1_enc  = A1.enclosing(J1, min_J1_A1_enc)
+rule_J1_A1_enc.output("J_A1_SURROUND: J1 surrounded by M1 &lt; 0.5 µm")
+
+#J1_M1_SURROUND  #5.4
+min_J1_M1_enc  = 1.0 .um
+rule_J1_M1_enc  = M1.enclosing(J1, min_J1_M1_enc)
+rule_J1_M1_enc.output("J_M1_SURROUND: J1 surrounded by M1 &lt; 1.0 µm")
+
+#M0_J1_SPACE  #5.5
+min_M0_J1_space = 0.5 .um
+rule_M0_J1_space = M0.separation(J1, min_M0_J1_space)
+rule_M0_J1_space.output("M0_J_SPACE: M0 J1 edge spacing &lt; 0.5 µm")
+
+#I0_J1_SPACE   #5.6 is same as rule 4.2
+# this rule is covered under I0 layer
+
+#IN1_J1_SPACE #5.7
+min_IN1_J1_space = 0.5 .um
+rule_IN1_J1_space = IN1.separation(J1, min_IN1_J1_space)
+rule_IN1_J1_space.output("IN1_J_SPACE: IN1 J1 edge spacing &lt; 0.5 µm")
+
+#----------------------------------A1 Layer-------------------------------------------------------------------
+
+#A1_WIDTH  #6.1
+min_A1_width = 1.0 .um
+rule_A1_width = A1.width(min_A1_width)
+rule_A1_width.output("A1_WIDTH: A1 width &lt; 1.0 µm")
+
+#A1_M1_SURROUND  #6.2
+min_A1_M1_enc  = 0.3 .um
+rule_A1_M1_enc  = M1.enclosing(A1, min_A1_M1_enc)
+rule_A1_M1_enc.output("A1_M1_SURROUND: A1 surrounded by M1 &lt; 0.3 µm")
+
+#A1_R2_SPACE  #6.3
+min_A1_R2_space = 0.3 .um
+rule_A1_R2_space = A1.separation(R2, min_A1_R2_space)
+rule_A1_R2_space.output("A1_R2_SPACE: A1-R2 SPACE &lt; 0.3 µm")
+
+#A1_I1_SPACE      # Need to be modified, Rule need to be understood clearly
+I1_w_A1 = I1.inside(A1)  #6.4.1
+min_A1_I1_surround = 0.5 .um
+rule_A1_I1_surround = A1.enclosing(I1_w_A1, min_A1_I1_surround)
+rule_A1_I1_surround.output("A1_I1_surround: A1 surrounding I1 &lt; 0.5 µm")
+
+A1_n_I1 = I1.not_in(A1)  #6.4.2
+min_A1_I1_space = 0.5 .um
+rule_A1_I1_space = A1.separation(A1_n_I1, min_A1_I1_space)
+rule_A1_I1_space.output("A1_I1_SPACE: A1 surrounding I1 &lt; 0.5 µm")
+
+
+#----------------------------------M1 Layer-------------------------------------------------------------------
+
+#M1_WIDTH  #7.1
+min_M1_width = 0.8 .um
+rule_M1_width = M1.width(min_M1_width)
+rule_M1_width.output("M1_WIDTH: M1 width &lt; 0.8 µm")
+
+#M1_M1_SPACE  #7.2
+min_M1_space = 1.0 .um
+rule_M1_space = M1.space(min_M1_space)
+rule_M1_space.output("M1_M1_SPACE: M1-M1 SPACE &lt; 1.0 µm")
+
+#M1_R2_SPACE  #7.3
+min_M1_R2_space = 0.3 .um
+rule_M1_R2_space = M1.separation(R2, min_M1_R2_space)
+rule_M1_R2_space.output("M1_R2_SPACE: M1-R2 SPACE &lt; 0.3 µm")
+
+#M1_I1_SURROUND  #7.4
+min_M1_I1_enc  = 0.5 .um
+rule_M1_I1_enc  = M1.enclosing(I1, min_M1_I1_enc)
+rule_M1_I1_enc.output("M1_I1_SURROUND: I1 surrounded by M1 &lt; 0.5 µm")
+
+#---------------------------------R2 Layer----------------------------------------------------------------
+#R2_WIDTH  #8.1
+min_R2_width = 0.8 .um
+rule_R2_width = R2.width(min_R2_width)
+rule_R2_width.output("R2_WIDTH: R2 width &lt; 0.8 µm")
+
+#R2_R2_SPACE  #8.2
+min_R2_space = 1.0 .um
+rule_R2_space = R2.space(min_R2_space)
+rule_R2_space.output("R2_R2_SPACE: R2-R2 SPACE &lt; 1.0 µm")
+
+#R2_I1_SURROUND  #8.3
+m1or2 = M1 + R2
+min_R2_I1_enc  = 0.5 .um
+rule_R2_I1_enc  = m1or2.enclosing(I1, min_R2_I1_enc)
+rule_R2_I1_enc.output("R2_I1_SURROUND: I1 surrounded by R2 &lt; 0.5 µm")
+m1ai1  = M1 &amp; I1
+r2ai1  = R2 &amp; I1
+
+#R2_LYS_SPACE  #8.4
+LYS = M0 + M1 + I0 + A1
+
+R2_in_LYS = R2.inside(LYS)
+R2_out_LYS = R2.not_in(LYS)
+
+min_R2_LYS_space = 0.3 .um
+rule_R2_surround = LYS.enclosing(R2_in_LYS, min_R2_LYS_space)
+rule_R2_LYS_space = R2_out_LYS.separation(LYS, min_R2_LYS_space)
+
+rule_R2_surround.output("R2_SURROUND: R2 surrounded by M0 or M1 or I0 or A1 &lt; 0.5 µm")
+rule_R2_LYS_space.output("R2_EDGE SPACE: R2 edge spacing with M0 or M1 or I0 or A1 &lt; 0.5 µm")
+#-------------------------------I1 Layer-----------------------------------------
+
+#I1_WIDTH  #9.1
+min_I1_width = 1.0 .um
+rule_I1_width = I1.width(min_I1_width)
+rule_I1_width.output("I1_WIDTH: I1 width &lt; 1.0 µm")
+
+#I1_M2_SURROUND  #9.2
+min_I1_M2_enc  = 0.5 .um
+rule_I1_M2_enc  = M2.enclosing(I1, min_I1_M2_enc)
+rule_I1_M2_enc.output("I1_M2_SURROUND: I1 surrounded by M2 &lt; 0.5 µm")
+
+rule_m1I1_width = m1ai1.width(min_I1_width)    #extemsion of rule 8.3
+rule_r2I1_width = r2ai1.width(min_I1_width)
+
+rule_m1I1_width.output("I1_WIDTH: I1 width &lt; 1.0 µm")
+rule_r2I1_width.output("I1_WIDTH: I1 width &lt; 1.0 µm")
+
+#-------------------------------M2 Layer--------------------------------------------
+#M2_WIDTH  #10.1
+min_M2_width = 0.8 .um
+rule_M2_width = M2.width(min_M2_width)
+rule_M2_width.output("M2_WIDTH: M2 width &lt; 0.8 µm")
+
+#M2_M2_SPACE  #10.2
+min_M2_space = 1.0 .um
+rule_M2_space = M2.space(min_M2_space)
+rule_M2_space.output("M2_M2_SPACE: M2-M2 SPACE &lt; 1.0 µm")
+
+
+#M2_I2_SURROUND  #10.3
+min_M2_I2_enc  = 0.5 .um
+rule_M2_I2_enc  = M2.enclosing(I2, min_M2_I2_enc)
+rule_M2_I2_enc.output("M2_I2_SURROUND: I2 surrounded by M2 &lt; 0.5 µm")
+
+#-------------------------------I2 Layer------------------------------------------------------------
+
+#I2_WIDTH  #11.1
+min_I2_width = 1.8 .um
+rule_I2_width = I2.width(min_I2_width)
+rule_I2_width.output("I2_WIDTH: I2 width &lt; 1.8 µm")
+
+#I2_M3_SURROUND  #11.2
+min_I2_M3_enc  = 0.5 .um
+rule_I2_M3_enc  = M3.enclosing(I2, min_I2_M3_enc)
+rule_I2_M3_enc.output("I2_M3_SURROUND: I2 surrounded by M3 &lt; 0.5 µm")
+
+
+#------------------------------M3 Layer -------------------------------------------------------------
+
+#M3_WIDTH  #12.1
+min_M3_width = 2.0 .um
+rule_M3_width = M3.width(min_M3_width)
+rule_M3_width.output("M3_WIDTH: M3 width &lt; 2.0 µm")
+
+#M3_M3_SPACE  #12.2
+min_M3_space = 2.0 .um
+rule_M3_space = M3.space(min_M3_space)
+rule_M3_space.output("M3_M3_SPACE: M3-M3 SPACE &lt; 2.0 µm")
+
+#M3_R3_CONTACT  #12.3
+min_M3_R3_overlap = 5.0 .um
+rule_M3_R3_overlap = M3.overlap(R3, min_M3_R3_overlap)
+rule_M3_R3_overlap.output("M3_R3_CONTACT: M3-R3 OVERLAP &lt; 5.0 µm")
+
+#-------------------------------I3 Layer------------------------------------------------------------
+
+#I3_WIDTH  #13.1
+min_I3_width = 1.8 .um
+rule_I3_width = I3.width(min_I3_width)
+rule_I3_width.output("I3_WIDTH: I3 width &lt; 1.8 µm")
+
+#I3_M3_SURROUND  #13.2
+min_I3_M3_enc  = 0.5 .um
+rule_I3_M3_enc  = M3.enclosing(I3, min_I3_M3_enc)
+rule_I3_M3_enc.output("I3_M3_SURROUND: I3 surrounded by M3 &lt; 0.5 µm")
+
+
+#---------------------------------R3 Layer-------------------------------------
+
+#R3_WIDTH  #14.1
+min_R3_width = 5.0 .um
+rule_R3_width = R3.width(min_R3_width)
+rule_R3_width.output("R3_WIDTH: R3 width &lt; 5.0 µm")
+
+#R3_R3_SPACE  #14.2
+min_R3_space = 3.0 .um
+rule_R3_space = R3.space(min_R3_space)
+rule_R3_space.output("R3_R3_SPACE: R3-R3 SPACE &lt; 3.0 µm")
+
+#R3_M3_SURROUND  #14.3
+min_R3_M3_enc  = 0.5 .um
+rule_R3_M3_enc  = M3.enclosing(R3, min_R3_M3_enc)
+rule_R3_M3_enc.output("R3_M3_SURROUND: R3 surrounded by M3 &lt; 0.5 µm")
+
+#---------------------------------BMP_Cu Layer -----------------------------------------------------
+
+#BMP_WIDTH  #15.1
+min_BMP1_width = 10.0 .um
+rule_BMP1_width = BMP_Cu.width(min_BMP1_width)
+rule_BMP1_width.output("BMP_WIDTH: BMP-Cu width &lt; 10.0 µm")
+
+#BMP_BMP_SPACE  #15.2
+min_BMP1_space = 30.0 .um
+rule_BMP1_space = BMP_Cu.space(min_BMP1_space)
+rule_BMP1_space.output("BMP_BMP_SPACE: BMP-BMP SPACE &lt; 30.0 µm")
+
+#---------------------------------BMP_In Layer -----------------------------------------------------
+
+#BMP_WIDTH  #16.1
+min_BMP2_width = 15.0 .um
+rule_BMP2_width = BMP_In.width(min_BMP2_width)
+rule_BMP2_width.output("BMP_WIDTH: BMP-In width &lt; 15.0 µm")
+
+#BMP_BMP_SPACE  #16.2
+min_BMP2_space = 50.0 .um
+rule_BMP2_space = BMP_In.space(min_BMP2_space)
+rule_BMP2_space.output("BMP_BMP_SPACE: BMP-BMP SPACE &lt; 30.0 µm")
+
+#BMP2_SURROUND_BMP1
+min_BMP1_BMP2_enc  = 2.5 .um
+rule_BMP1_BMP2_enc  = BMP_In.enclosing(BMP_Cu, min_BMP1_BMP2_enc)
+rule_BMP1_BMP2_enc.output("BMP1_BMP2_SURROUND: BMP-In  surrounded by BMP-Cu &lt; 2.5 µm")
+
+</text>
+</klayout-macro>
