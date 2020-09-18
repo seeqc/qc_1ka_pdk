@@ -9,14 +9,82 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 Physical</name>
+   <source>MN1 34/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
    <visible>true</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>MN1</name>
-   <source>MN1 34/0@1</source>
+   <name>MN1 + Drawing</name>
+   <source>'MN1+' 34/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 - Drawing</name>
+   <source>'MN1-' 34/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 Physical</name>
+   <source>IN1 32/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 + Drawing</name>
+   <source>'IN1+' 32/1@1</source>
   </properties>
   <properties>
    <frame-color>#008000</frame-color>
@@ -32,8 +100,25 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>IN1</name>
-   <source>IN1 32/0@1</source>
+   <name>IN1 - Drawing</name>
+   <source>'IN1-' 32/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 Physical</name>
+   <source>M0 30/0@1</source>
   </properties>
   <properties>
    <frame-color>#008080</frame-color>
@@ -49,8 +134,59 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M0</name>
-   <source>M0 30/0@1</source>
+   <name>M0 + Drawing</name>
+   <source>'M0+' 30/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 - Drawing</name>
+   <source>'M0-' 30/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 Physical</name>
+   <source>I0 31/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 + Drawing</name>
+   <source>'I0+' 31/1@1</source>
   </properties>
   <properties>
    <frame-color>#008050</frame-color>
@@ -66,8 +202,8 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I0</name>
-   <source>I0 31/0@1</source>
+   <name>I0 - Drawing</name>
+   <source>'I0-' 31/2@1</source>
   </properties>
   <properties>
    <frame-color>#8086ff</frame-color>
@@ -83,7 +219,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>J1</name>
+   <name>J1 Physical</name>
    <source>J1 4/0@1</source>
   </properties>
   <properties>
@@ -100,8 +236,25 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>A1</name>
+   <name>A1 Physical</name>
    <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 Physical</name>
+   <source>M1 1/0@1</source>
   </properties>
   <properties>
    <frame-color>#ff80a8</frame-color>
@@ -117,8 +270,25 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M1</name>
-   <source>M1 1/0@1</source>
+   <name>M1 + Drawing</name>
+   <source>'M1+' 1/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 - Drawing</name>
+   <source>'M1-' 1/2@1</source>
   </properties>
   <properties>
    <frame-color>#8000ff</frame-color>
@@ -134,10 +304,78 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>R2</name>
+   <name>R2 Physical</name>
    <source>R2 9/0@1</source>
   </properties>
   <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 + Drawing</name>
+   <source>'R2+' 9/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 - Drawing</name>
+   <source>'R2-' 9/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 Physical</name>
+   <source>I1 3/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 + Drawing</name>
+   <source>'I1+' 3/1@1</source>
+  </properties>
+  <properties>
    <frame-color>#9580ff</frame-color>
    <fill-color>#9580ff</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -151,8 +389,25 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I1</name>
-   <source>I1 3/0@1</source>
+   <name>I1 - Drawing</name>
+   <source>'I1-' 3/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 Physical</name>
+   <source>M2 6/0@1</source>
   </properties>
   <properties>
    <frame-color>#ff0000</frame-color>
@@ -168,8 +423,59 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M2</name>
-   <source>M2 6/0@1</source>
+   <name>M2 + Drawing</name>
+   <source>'M2+' 6/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 - Drawing</name>
+   <source>'M2-' 6/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 Physical</name>
+   <source>I2 8/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 + Drawing</name>
+   <source>'I2+' 8/1@1</source>
   </properties>
   <properties>
    <frame-color>#ff00ff</frame-color>
@@ -185,8 +491,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I2</name>
-   <source>I2 8/0@1</source>
+   <name>I2 - Drawing</name>
+   <source>'I2-' 8/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 Physical</name>
+   <source>M3 10/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 + Drawing</name>
+   <source>'M3+' 10/1@1</source>
   </properties>
   <properties>
    <frame-color>#0000ff</frame-color>
@@ -202,8 +542,8 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M3</name>
-   <source>M3 10/0@1</source>
+   <name>M3 - Drawing</name>
+   <source>'M3-' 10/2@1</source>
   </properties>
   <properties>
    <frame-color>#800057</frame-color>
@@ -219,12 +559,29 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I3</name>
+   <name>I3 Physical</name>
    <source>I3 13/0@1</source>
   </properties>
   <properties>
-   <frame-color>#0080ff</frame-color>
-   <fill-color>#0080ff</fill-color>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 + Drawing</name>
+   <source>'I3+' 13/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
    <frame-brightness>0</frame-brightness>
    <fill-brightness>0</fill-brightness>
    <dither-pattern>I5</dither-pattern>
@@ -236,7 +593,24 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>R3</name>
+   <name>I3 - Drawing</name>
+   <source>'I3-' 13/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 Physical</name>
    <source>R3 11/0@1</source>
   </properties>
   <properties>
@@ -281,13 +655,13 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0</name>
+   <name>QM0 Physical</name>
    <source>QM0 50/0@1</source>
   </properties>
   <properties>
@@ -304,7 +678,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0+</name>
+   <name>QM0 + Drawing</name>
    <source>'QM0+' 50/1@1</source>
   </properties>
   <properties>
@@ -321,12 +695,12 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0-</name>
+   <name>QM0 - Drawing</name>
    <source>'QM0-' 50/2@1</source>
   </properties>
   <properties>
-   <frame-color>#500080</frame-color>
-   <fill-color>#500080</fill-color>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
    <frame-brightness>0</frame-brightness>
    <fill-brightness>0</fill-brightness>
    <dither-pattern>I9</dither-pattern>
@@ -338,12 +712,12 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QR0</name>
-   <source>QR0 51/0@1</source>
+   <name>QM0 - FT</name>
+   <source>'QM0-FT' 50/3@1</source>
   </properties>
   <properties>
-   <frame-color>#000080</frame-color>
-   <fill-color>#000080</fill-color>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
    <frame-brightness>0</frame-brightness>
    <fill-brightness>0</fill-brightness>
    <dither-pattern>I5</dither-pattern>
@@ -355,8 +729,93 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QJ0</name>
+   <name>QM0 - KO</name>
+   <source>'QM0-KO' 50/4@1</source>
+  </properties>
+  <properties>
+   <frame-color>#500080</frame-color>
+   <fill-color>#500080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QR0 Physical</name>
+   <source>QR0 51/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#000080</frame-color>
+   <fill-color>#000080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QJ0 Physical</name>
    <source>QJ0 52/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 Physical</name>
+   <source>QM1 53/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 + Drawing</name>
+   <source>'QM1+' 53/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 - Drawing</name>
+   <source>'QM1-' 53/2@1</source>
   </properties>
   <properties>
    <frame-color>#ddff00</frame-color>
@@ -409,7 +868,7 @@
    <name>TEXT</name>
    <source>0/0@1</source>
   </properties>
-  <name>MCM</name>
+  <name>MCM Drawing</name>
  </layer-properties>
  <layer-properties>
   <properties>
@@ -426,8 +885,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>MN1</name>
+   <name>MN1 Physical</name>
    <source>MN1 34/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 + Drawing</name>
+   <source>'MN1+' 34/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 - Drawing</name>
+   <source>'MN1-' 34/2@1</source>
   </properties>
   <properties>
    <frame-color>#008000</frame-color>
@@ -443,8 +936,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>IN1</name>
+   <name>IN1 Physical</name>
    <source>IN1 32/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 + Drawing</name>
+   <source>'IN1+' 32/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 - Drawing</name>
+   <source>'IN1-' 32/2@1</source>
   </properties>
   <properties>
    <frame-color>#008080</frame-color>
@@ -460,8 +987,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M0</name>
+   <name>M0 Physical</name>
    <source>M0 30/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 + Drawing</name>
+   <source>'M0+' 30/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 - Drawing</name>
+   <source>'M0-' 30/2@1</source>
   </properties>
   <properties>
    <frame-color>#008050</frame-color>
@@ -477,8 +1038,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I0</name>
+   <name>I0 Physical</name>
    <source>I0 31/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 + Drawing</name>
+   <source>'I0+' 31/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 - Drawing</name>
+   <source>'I0-' 31/2@1</source>
   </properties>
   <properties>
    <frame-color>#8086ff</frame-color>
@@ -494,7 +1089,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>J1</name>
+   <name>J1 Physical</name>
    <source>J1 4/0@1</source>
   </properties>
   <properties>
@@ -511,7 +1106,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>A1</name>
+   <name>A1 Physical</name>
    <source>A1 5/0@1</source>
   </properties>
   <properties>
@@ -528,8 +1123,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M1</name>
+   <name>M1 Physical</name>
    <source>M1 1/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 + Drawing</name>
+   <source>'M1+' 1/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 - Drawing</name>
+   <source>'M1-' 1/2@1</source>
   </properties>
   <properties>
    <frame-color>#8000ff</frame-color>
@@ -545,8 +1174,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>R2</name>
-   <source>9/0@1</source>
+   <name>R2 Physical</name>
+   <source>R2 9/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 + Drawing</name>
+   <source>'R2+' 9/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 - Drawing</name>
+   <source>'R2-' 9/2@1</source>
   </properties>
   <properties>
    <frame-color>#9580ff</frame-color>
@@ -562,8 +1225,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I1</name>
+   <name>I1 Physical</name>
    <source>I1 3/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 + Drawing</name>
+   <source>'I1+' 3/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 - Drawing</name>
+   <source>'I1-' 3/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff0000</frame-color>
@@ -579,8 +1276,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M2</name>
+   <name>M2 Physical</name>
    <source>M2 6/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 + Drawing</name>
+   <source>'M2+' 6/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 - Drawing</name>
+   <source>'M2-' 6/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff00ff</frame-color>
@@ -596,8 +1327,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I2</name>
+   <name>I2 Physical</name>
    <source>I2 8/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 + Drawing</name>
+   <source>'I2+' 8/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 - Drawing</name>
+   <source>'I2-' 8/2@1</source>
   </properties>
   <properties>
    <frame-color>#0000ff</frame-color>
@@ -613,8 +1378,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M3</name>
+   <name>M3 Physical</name>
    <source>M3 10/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 + Drawing</name>
+   <source>'M3+' 10/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 - Drawing</name>
+   <source>'M3-' 10/2@1</source>
   </properties>
   <properties>
    <frame-color>#800057</frame-color>
@@ -630,8 +1429,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I3</name>
+   <name>I3 Physical</name>
    <source>I3 13/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 + Drawing</name>
+   <source>'I3+' 13/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 - Drawing</name>
+   <source>'I3-' 13/2@1</source>
   </properties>
   <properties>
    <frame-color>#0080ff</frame-color>
@@ -647,7 +1480,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>R3</name>
+   <name>R3 Physical</name>
    <source>R3 11/0@1</source>
   </properties>
   <properties>
@@ -698,7 +1531,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0</name>
+   <name>QM0 Physical</name>
    <source>QM0 50/0@1</source>
   </properties>
   <properties>
@@ -709,13 +1542,13 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0+</name>
+   <name>QM0 + Drawing</name>
    <source>'QM0+' 50/1@1</source>
   </properties>
   <properties>
@@ -726,14 +1559,48 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0-</name>
+   <name>QM0 - Drawing</name>
    <source>'QM0-' 50/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - FT</name>
+   <source>'QM0-FT' 50/3@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - KO</name>
+   <source>'QM0-KO' 50/4@1</source>
   </properties>
   <properties>
    <frame-color>#500080</frame-color>
@@ -749,7 +1616,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QR0</name>
+   <name>QR0 Physical</name>
    <source>QR0 51/0@1</source>
   </properties>
   <properties>
@@ -766,8 +1633,59 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QJ0</name>
+   <name>QJ0 Physical</name>
    <source>QJ0 52/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 Physical</name>
+   <source>QM1 53/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 + Drawing</name>
+   <source>'QM1+' 53/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 - Drawing</name>
+   <source>'QM1-' 53/2@1</source>
   </properties>
   <properties>
    <frame-color>#ddff00</frame-color>
@@ -820,7 +1738,877 @@
    <name>TEXT</name>
    <source>0/0@1</source>
   </properties>
-  <name>CLASSICAL</name>
+  <name>MCM Physical</name>
+ </layer-properties>
+ <layer-properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 Physical</name>
+   <source>MN1 34/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 + Drawing</name>
+   <source>'MN1+' 34/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 - Drawing</name>
+   <source>'MN1-' 34/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 Physical</name>
+   <source>IN1 32/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 + Drawing</name>
+   <source>'IN1+' 32/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 - Drawing</name>
+   <source>'IN1-' 32/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 Physical</name>
+   <source>M0 30/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 + Drawing</name>
+   <source>'M0+' 30/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 - Drawing</name>
+   <source>'M0-' 30/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 Physical</name>
+   <source>I0 31/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 + Drawing</name>
+   <source>'I0+' 31/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 - Drawing</name>
+   <source>'I0-' 31/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 Physical</name>
+   <source>J1 4/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 Physical</name>
+   <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 Physical</name>
+   <source>M1 1/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 + Drawing</name>
+   <source>'M1+' 1/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 - Drawing</name>
+   <source>'M1-' 1/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width/>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 Physical</name>
+   <source>R2 9/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 + Drawing</name>
+   <source>'R2+' 9/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 - Drawing</name>
+   <source>'R2-' 9/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 Physical</name>
+   <source>I1 3/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 + Drawing</name>
+   <source>'I1+' 3/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 - Drawing</name>
+   <source>'I1-' 3/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 Physical</name>
+   <source>M2 6/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 + Drawing</name>
+   <source>'M2+' 6/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 - Drawing</name>
+   <source>'M2-' 6/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 Physical</name>
+   <source>I2 8/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 + Drawing</name>
+   <source>'I2+' 8/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 - Drawing</name>
+   <source>'I2-' 8/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 Physical</name>
+   <source>M3 10/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 + Drawing</name>
+   <source>'M3+' 10/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 - Drawing</name>
+   <source>'M3-' 10/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 Physical</name>
+   <source>I3 13/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 + Drawing</name>
+   <source>'I3+' 13/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 - Drawing</name>
+   <source>'I3-' 13/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 Physical</name>
+   <source>R3 11/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800000</frame-color>
+   <fill-color>#800000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>BMP-Cu</name>
+   <source>'BMP-Cu' 12/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#500080</frame-color>
+   <fill-color>#500080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>BMP-In</name>
+   <source>BUMP 15/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 Physical</name>
+   <source>QM0 50/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 + Drawing</name>
+   <source>'QM0+' 50/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - Drawing</name>
+   <source>'QM0-' 50/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - FT</name>
+   <source>'QM0-FT' 50/3@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - KO</name>
+   <source>'QM0-KO' 50/4@1</source>
+  </properties>
+  <properties>
+   <frame-color>#500080</frame-color>
+   <fill-color>#500080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QR0 Physical</name>
+   <source>QR0 51/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#000080</frame-color>
+   <fill-color>#000080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QJ0 Physical</name>
+   <source>QJ0 52/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 Physical</name>
+   <source>QM1 53/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 + Drawing</name>
+   <source>'QM1+' 53/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 - Drawing</name>
+   <source>'QM1-' 53/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ddff00</frame-color>
+   <fill-color>#ddff00</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IXTERM</name>
+   <source>IxTerm 63/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ffae00</frame-color>
+   <fill-color>#ffae00</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IXTEXT</name>
+   <source>IxText 64/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff9d9d</frame-color>
+   <fill-color>#ff9d9d</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width/>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>TEXT</name>
+   <source>0/0@1</source>
+  </properties>
+  <name>Carrier Drawing</name>
  </layer-properties>
  <layer-properties>
   <properties>
@@ -837,8 +2625,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>MN1</name>
+   <name>MN1 Physical</name>
    <source>MN1 34/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 + Drawing</name>
+   <source>'MN1+' 34/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 - Drawing</name>
+   <source>'MN1-' 34/2@1</source>
   </properties>
   <properties>
    <frame-color>#008000</frame-color>
@@ -854,8 +2676,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>IN1</name>
+   <name>IN1 Physical</name>
    <source>IN1 32/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 + Drawing</name>
+   <source>'IN1+' 32/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 - Drawing</name>
+   <source>'IN1-' 32/2@1</source>
   </properties>
   <properties>
    <frame-color>#008080</frame-color>
@@ -871,8 +2727,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M0</name>
+   <name>M0 Physical</name>
    <source>M0 30/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 + Drawing</name>
+   <source>'M0+' 30/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 - Drawing</name>
+   <source>'M0-' 30/2@1</source>
   </properties>
   <properties>
    <frame-color>#008050</frame-color>
@@ -888,8 +2778,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I0</name>
+   <name>I0 Physical</name>
    <source>I0 31/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 + Drawing</name>
+   <source>'I0+' 31/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 - Drawing</name>
+   <source>'I0-' 31/2@1</source>
   </properties>
   <properties>
    <frame-color>#8086ff</frame-color>
@@ -905,7 +2829,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>J1</name>
+   <name>J1 Physical</name>
    <source>J1 4/0@1</source>
   </properties>
   <properties>
@@ -922,7 +2846,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>A1</name>
+   <name>A1 Physical</name>
    <source>A1 5/0@1</source>
   </properties>
   <properties>
@@ -939,8 +2863,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M1</name>
+   <name>M1 Physical</name>
    <source>M1 1/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 + Drawing</name>
+   <source>'M1+' 1/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 - Drawing</name>
+   <source>'M1-' 1/2@1</source>
   </properties>
   <properties>
    <frame-color>#8000ff</frame-color>
@@ -956,8 +2914,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>R2</name>
-   <source>9/0@1</source>
+   <name>R2 Physical</name>
+   <source>R2 9/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 + Drawing</name>
+   <source>'R2+' 9/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 - Drawing</name>
+   <source>'R2-' 9/2@1</source>
   </properties>
   <properties>
    <frame-color>#9580ff</frame-color>
@@ -973,8 +2965,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I1</name>
+   <name>I1 Physical</name>
    <source>I1 3/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 + Drawing</name>
+   <source>'I1+' 3/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 - Drawing</name>
+   <source>'I1-' 3/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff0000</frame-color>
@@ -990,8 +3016,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M2</name>
+   <name>M2 Physical</name>
    <source>M2 6/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 + Drawing</name>
+   <source>'M2+' 6/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 - Drawing</name>
+   <source>'M2-' 6/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff00ff</frame-color>
@@ -1007,8 +3067,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I2</name>
+   <name>I2 Physical</name>
    <source>I2 8/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 + Drawing</name>
+   <source>'I2+' 8/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 - Drawing</name>
+   <source>'I2-' 8/2@1</source>
   </properties>
   <properties>
    <frame-color>#0000ff</frame-color>
@@ -1024,8 +3118,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>M3</name>
+   <name>M3 Physical</name>
    <source>M3 10/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 + Drawing</name>
+   <source>'M3+' 10/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 - Drawing</name>
+   <source>'M3-' 10/2@1</source>
   </properties>
   <properties>
    <frame-color>#800057</frame-color>
@@ -1041,8 +3169,42 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>I3</name>
+   <name>I3 Physical</name>
    <source>I3 13/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 + Drawing</name>
+   <source>'I3+' 13/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 - Drawing</name>
+   <source>'I3-' 13/2@1</source>
   </properties>
   <properties>
    <frame-color>#0080ff</frame-color>
@@ -1058,7 +3220,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>R3</name>
+   <name>R3 Physical</name>
    <source>R3 11/0@1</source>
   </properties>
   <properties>
@@ -1103,13 +3265,13 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0</name>
+   <name>QM0 Physical</name>
    <source>QM0 50/0@1</source>
   </properties>
   <properties>
@@ -1120,13 +3282,13 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0+</name>
+   <name>QM0 + Drawing</name>
    <source>'QM0+' 50/1@1</source>
   </properties>
   <properties>
@@ -1137,14 +3299,48 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QM0-</name>
+   <name>QM0 - Drawing</name>
    <source>'QM0-' 50/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - FT</name>
+   <source>'QM0-FT' 50/3@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - KO</name>
+   <source>'QM0-KO' 50/4@1</source>
   </properties>
   <properties>
    <frame-color>#500080</frame-color>
@@ -1154,13 +3350,13 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QR0</name>
+   <name>QR0 Physical</name>
    <source>QR0 51/0@1</source>
   </properties>
   <properties>
@@ -1171,14 +3367,65 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>QJ0</name>
+   <name>QJ0 Physical</name>
    <source>QJ0 52/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 Physical</name>
+   <source>QM1 53/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 + Drawing</name>
+   <source>'QM1+' 53/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 - Drawing</name>
+   <source>'QM1-' 53/2@1</source>
   </properties>
   <properties>
    <frame-color>#ddff00</frame-color>
@@ -1231,6 +3478,1746 @@
    <name>TEXT</name>
    <source>0/0@1</source>
   </properties>
-  <name>QUANTUM</name>
+  <name>Carrier Physical</name>
+ </layer-properties>
+ <layer-properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 Physical</name>
+   <source>MN1 34/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 + Drawing</name>
+   <source>'MN1+' 34/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 - Drawing</name>
+   <source>'MN1-' 34/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 Physical</name>
+   <source>IN1 32/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 + Drawing</name>
+   <source>'IN1+' 32/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 - Drawing</name>
+   <source>'IN1-' 32/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 Physical</name>
+   <source>M0 30/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 + Drawing</name>
+   <source>'M0+' 30/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 - Drawing</name>
+   <source>'M0-' 30/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 Physical</name>
+   <source>I0 31/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 + Drawing</name>
+   <source>'I0+' 31/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 - Drawing</name>
+   <source>'I0-' 31/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 Physical</name>
+   <source>J1 4/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 Physical</name>
+   <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 Physical</name>
+   <source>M1 1/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 + Drawing</name>
+   <source>'M1+' 1/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 - Drawing</name>
+   <source>'M1-' 1/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width/>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 Physical</name>
+   <source>R2 9/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 + Drawing</name>
+   <source>'R2+' 9/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 - Drawing</name>
+   <source>'R2-' 9/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 Physical</name>
+   <source>I1 3/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 + Drawing</name>
+   <source>'I1+' 3/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 - Drawing</name>
+   <source>'I1-' 3/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 Physical</name>
+   <source>M2 6/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 + Drawing</name>
+   <source>'M2+' 6/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 - Drawing</name>
+   <source>'M2-' 6/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 Physical</name>
+   <source>I2 8/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 + Drawing</name>
+   <source>'I2+' 8/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 - Drawing</name>
+   <source>'I2-' 8/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 Physical</name>
+   <source>M3 10/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 + Drawing</name>
+   <source>'M3+' 10/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 - Drawing</name>
+   <source>'M3-' 10/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 Physical</name>
+   <source>I3 13/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 + Drawing</name>
+   <source>'I3+' 13/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 - Drawing</name>
+   <source>'I3-' 13/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 Physical</name>
+   <source>R3 11/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800000</frame-color>
+   <fill-color>#800000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>BMP-Cu</name>
+   <source>'BMP-Cu' 12/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#500080</frame-color>
+   <fill-color>#500080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>BMP-In</name>
+   <source>BUMP 15/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 Physical</name>
+   <source>QM0 50/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>true</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 + Drawing</name>
+   <source>'QM0+' 50/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - Drawing</name>
+   <source>'QM0-' 50/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - FT</name>
+   <source>'QM0-FT' 50/3@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - KO</name>
+   <source>'QM0-KO' 50/4@1</source>
+  </properties>
+  <properties>
+   <frame-color>#500080</frame-color>
+   <fill-color>#500080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QR0 Physical</name>
+   <source>QR0 51/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#000080</frame-color>
+   <fill-color>#000080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QJ0 Physical</name>
+   <source>QJ0 52/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 Physical</name>
+   <source>QM1 53/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 + Drawing</name>
+   <source>'QM1+' 53/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 - Drawing</name>
+   <source>'QM1-' 53/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ddff00</frame-color>
+   <fill-color>#ddff00</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IXTERM</name>
+   <source>IxTerm 63/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ffae00</frame-color>
+   <fill-color>#ffae00</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IXTEXT</name>
+   <source>IxText 64/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff9d9d</frame-color>
+   <fill-color>#ff9d9d</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width/>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>TEXT</name>
+   <source>0/0@1</source>
+  </properties>
+  <name>Flip Drawing</name>
+ </layer-properties>
+ <layer-properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 Physical</name>
+   <source>MN1 34/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 + Drawing</name>
+   <source>'MN1+' 34/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#808000</frame-color>
+   <fill-color>#808000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>MN1 - Drawing</name>
+   <source>'MN1-' 34/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 Physical</name>
+   <source>IN1 32/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 + Drawing</name>
+   <source>'IN1+' 32/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008000</frame-color>
+   <fill-color>#008000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IN1 - Drawing</name>
+   <source>'IN1-' 32/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 Physical</name>
+   <source>M0 30/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 + Drawing</name>
+   <source>'M0+' 30/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008080</frame-color>
+   <fill-color>#008080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M0 - Drawing</name>
+   <source>'M0-' 30/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 Physical</name>
+   <source>I0 31/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 + Drawing</name>
+   <source>'I0+' 31/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#008050</frame-color>
+   <fill-color>#008050</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I0 - Drawing</name>
+   <source>'I0-' 31/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 Physical</name>
+   <source>J1 4/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 Physical</name>
+   <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 Physical</name>
+   <source>M1 1/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 + Drawing</name>
+   <source>'M1+' 1/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff80a8</frame-color>
+   <fill-color>#ff80a8</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M1 - Drawing</name>
+   <source>'M1-' 1/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width/>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 Physical</name>
+   <source>R2 9/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 + Drawing</name>
+   <source>'R2+' 9/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8000ff</frame-color>
+   <fill-color>#8000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R2 - Drawing</name>
+   <source>'R2-' 9/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 Physical</name>
+   <source>I1 3/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 + Drawing</name>
+   <source>'I1+' 3/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I1 - Drawing</name>
+   <source>'I1-' 3/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 Physical</name>
+   <source>M2 6/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 + Drawing</name>
+   <source>'M2+' 6/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff0000</frame-color>
+   <fill-color>#ff0000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M2 - Drawing</name>
+   <source>'M2-' 6/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 Physical</name>
+   <source>I2 8/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 + Drawing</name>
+   <source>'I2+' 8/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff00ff</frame-color>
+   <fill-color>#ff00ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I2 - Drawing</name>
+   <source>'I2-' 8/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 Physical</name>
+   <source>M3 10/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#9580ff</frame-color>
+   <fill-color>#9580ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 + Drawing</name>
+   <source>'M3+' 10/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0000ff</frame-color>
+   <fill-color>#0000ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>M3 - Drawing</name>
+   <source>'M3-' 10/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 Physical</name>
+   <source>I3 13/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 + Drawing</name>
+   <source>'I3+' 13/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800057</frame-color>
+   <fill-color>#800057</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>I3 - Drawing</name>
+   <source>'I3-' 13/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 Physical</name>
+   <source>R3 11/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800000</frame-color>
+   <fill-color>#800000</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>BMP-Cu</name>
+   <source>'BMP-Cu' 12/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#500080</frame-color>
+   <fill-color>#500080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>BMP-In</name>
+   <source>BUMP 15/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 Physical</name>
+   <source>QM0 50/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>true</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 + Drawing</name>
+   <source>'QM0+' 50/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - Drawing</name>
+   <source>'QM0-' 50/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - FT</name>
+   <source>'QM0-FT' 50/3@1</source>
+  </properties>
+  <properties>
+   <frame-color>#800080</frame-color>
+   <fill-color>#800080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM0 - KO</name>
+   <source>'QM0-KO' 50/4@1</source>
+  </properties>
+  <properties>
+   <frame-color>#500080</frame-color>
+   <fill-color>#500080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QR0 Physical</name>
+   <source>QR0 51/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#000080</frame-color>
+   <fill-color>#000080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QJ0 Physical</name>
+   <source>QJ0 52/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 Physical</name>
+   <source>QM1 53/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 + Drawing</name>
+   <source>'QM1+' 53/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#004080</frame-color>
+   <fill-color>#004080</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>QM1 - Drawing</name>
+   <source>'QM1-' 53/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ddff00</frame-color>
+   <fill-color>#ddff00</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IXTERM</name>
+   <source>IxTerm 63/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ffae00</frame-color>
+   <fill-color>#ffae00</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>IXTEXT</name>
+   <source>IxText 64/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#ff9d9d</frame-color>
+   <fill-color>#ff9d9d</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width/>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>TEXT</name>
+   <source>0/0@1</source>
+  </properties>
+  <name>Flip Physical</name>
  </layer-properties>
 </layer-properties-tabs>
