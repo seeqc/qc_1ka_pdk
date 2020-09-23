@@ -21,7 +21,7 @@ def compile_physical_layer(layer_num, polarity='+', clear=True, pos_tech=1, neg_
 
   # Access current cell
   layout = pya.CellView.active().layout()
-  cell = layout.top_cell()
+  cell = pya.CellView.active().cell
   
   # Drawing Layers
   l_pos = layout.layer(layer_num, pos_tech)
@@ -44,6 +44,25 @@ def compile_physical_layer(layer_num, polarity='+', clear=True, pos_tech=1, neg_
   elif polarity == '-':
     cell.shapes(l_phys).insert(r_neg - r_pos)
 
+def compile_physical_layer_single(layer_num, clear=True):
+  print(f'Compiling physical layer (single) {layer_num}')
+  # Access current cell
+  layout = pya.CellView.active().layout()
+  cell = pya.CellView.active().cell
+  
+  # Physical Layer
+  l_phys = layout.layer(layer_num, 0)
+  
+  r_phys = pya.Region(cell.begin_shapes_rec(l_phys))
+  
+  if clear:
+    cell.shapes(l_phys).clear()
+  
+  cell.shapes(l_phys).insert(r_phys)
+  
+  
+  
+
 #### MN1 ####
 compile_physical_layer(34, '-', True)
 
@@ -57,10 +76,10 @@ compile_physical_layer(30, '-', True)
 compile_physical_layer(31, '-', True)
 
 #### J1 ####
-compile_physical_layer(4, '+', False)
+compile_physical_layer_single(4, False)
 
 #### A1 ####
-compile_physical_layer(5, '+', False)
+compile_physical_layer_single(5, False)
 
 #### M1 ####
 compile_physical_layer(1, '+', True)
@@ -77,12 +96,30 @@ compile_physical_layer(8, '-', True)
 #### M3 ####
 compile_physical_layer(10, '+', True)
 
+#### R3 ####
+compile_physical_layer_single(11, True)
+
 #### I3 ####
 compile_physical_layer(13, '-', True)
+
+#### BMP-Cu ####
+compile_physical_layer_single(12,  True)
+
+#### BMP-In ####
+compile_physical_layer_single(15, True)
 
 #### QM0 ####
 compile_physical_layer(50, '-', True)
 compile_physical_layer(50, '+', False, 3, 4) # Flux Traps
+
+#### QR0 ####
+compile_physical_layer_single(51,  True)
+
+#### QJ0 ####
+compile_physical_layer_single(52,  True)
+
+#### QM1 ####
+compile_physical_layer(53, '+', True)
 
 print('-----Physical Layers Created-----')
 </text>
