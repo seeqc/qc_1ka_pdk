@@ -28,11 +28,22 @@ layout = cell_view.layout()
 
 opts = pya.SaveLayoutOptions()
 
-opts.add_this_cell(cell_view.cell.cell_index())
+
+
+flip_only = True
+if flip_only:
+  #
+  opts.add_this_cell(cell_view.cell.cell_index())
+  #opts.select_this_cell(cell_view.cell.cell_index())
+  opts.deselect_all_layers()
+  opts.add_layer(1, pya.LayerInfo(50, 0))
+  
+else:
+  opts.add_this_cell(cell_view.cell.cell_index())
 
 #opts.deselect_all_layers()
 #opts.add_layer(0, pya.LayerInfo(6, 0))
 
-layout.write(r'C:\Users\caleb\GitHub\\2q_diagnostic_design\layout\export_phys_layers_test.gds', opts)
+layout.write(r'C:\Users\caleb\seeqc.com\SFQubit - Documents\Design\Releases\QR03\2QDiagnosticV2\2q_diagnostic_flip_ch1_a.gds', opts)
 </text>
 </klayout-macro>
