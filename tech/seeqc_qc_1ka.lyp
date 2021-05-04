@@ -213,7 +213,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -221,6 +221,57 @@
    <animation>0</animation>
    <name>J1 Physical</name>
    <source>J1 4/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 + Drawing</name>
+   <source>'J1+' 4/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 - Drawing</name>
+   <source>'J1-' 4/2@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 Physical</name>
+   <source>A1 5/0@1</source>
   </properties>
   <properties>
    <frame-color>#80a8ff</frame-color>
@@ -236,8 +287,25 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>A1 Physical</name>
-   <source>A1 5/0@1</source>
+   <name>A1 + Drawing</name>
+   <source>'A1+' 5/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 - Drawing</name>
+   <source>'A1-' 5/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff80a8</frame-color>
@@ -298,7 +366,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width/>
    <marked>false</marked>
@@ -468,7 +536,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -553,7 +621,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -612,6 +680,40 @@
    <animation>0</animation>
    <name>R3 Physical</name>
    <source>R3 11/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 + Drawing</name>
+   <source>'R3+' 11/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 - Drawing</name>
+   <source>'R3-' 11/2@1</source>
   </properties>
   <properties>
    <frame-color>#800000</frame-color>
@@ -774,7 +876,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -825,7 +927,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -842,7 +944,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -1093,6 +1195,40 @@
    <source>J1 4/0@1</source>
   </properties>
   <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 + Drawing</name>
+   <source>'J1+' 4/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 - Drawing</name>
+   <source>'J1-' 4/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#80a8ff</frame-color>
    <fill-color>#80a8ff</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -1108,6 +1244,40 @@
    <animation>0</animation>
    <name>A1 Physical</name>
    <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 + Drawing</name>
+   <source>'A1+' 5/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 - Drawing</name>
+   <source>'A1-' 5/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff80a8</frame-color>
@@ -1484,6 +1654,40 @@
    <source>R3 11/0@1</source>
   </properties>
   <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 + Drawing</name>
+   <source>'R3+' 11/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 - Drawing</name>
+   <source>'R3-' 11/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#800000</frame-color>
    <fill-color>#800000</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -1695,7 +1899,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -1712,7 +1916,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -1729,7 +1933,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width/>
    <marked>false</marked>
@@ -1963,6 +2167,40 @@
    <source>J1 4/0@1</source>
   </properties>
   <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 + Drawing</name>
+   <source>'J1+' 4/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 - Drawing</name>
+   <source>'J1-' 4/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#80a8ff</frame-color>
    <fill-color>#80a8ff</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -1978,6 +2216,40 @@
    <animation>0</animation>
    <name>A1 Physical</name>
    <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 + Drawing</name>
+   <source>'A1+' 5/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 - Drawing</name>
+   <source>'A1-' 5/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff80a8</frame-color>
@@ -2038,7 +2310,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width/>
    <marked>false</marked>
@@ -2354,6 +2626,40 @@
    <source>R3 11/0@1</source>
   </properties>
   <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 + Drawing</name>
+   <source>'R3+' 11/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>true</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 - Drawing</name>
+   <source>'R3-' 11/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#800000</frame-color>
    <fill-color>#800000</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -2361,7 +2667,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2378,7 +2684,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2565,7 +2871,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2582,7 +2888,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2599,7 +2905,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width/>
    <marked>false</marked>
@@ -2636,7 +2942,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2653,7 +2959,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2687,7 +2993,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2704,7 +3010,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2738,7 +3044,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2755,7 +3061,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -2833,6 +3139,40 @@
    <source>J1 4/0@1</source>
   </properties>
   <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 + Drawing</name>
+   <source>'J1+' 4/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 - Drawing</name>
+   <source>'J1-' 4/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#80a8ff</frame-color>
    <fill-color>#80a8ff</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -2848,6 +3188,40 @@
    <animation>0</animation>
    <name>A1 Physical</name>
    <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 + Drawing</name>
+   <source>'A1+' 5/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 - Drawing</name>
+   <source>'A1-' 5/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff80a8</frame-color>
@@ -3224,6 +3598,40 @@
    <source>R3 11/0@1</source>
   </properties>
   <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 + Drawing</name>
+   <source>'R3+' 11/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 - Drawing</name>
+   <source>'R3-' 11/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#800000</frame-color>
    <fill-color>#800000</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -3231,7 +3639,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -3248,7 +3656,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -3435,7 +3843,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -3452,7 +3860,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -3469,7 +3877,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width/>
    <marked>false</marked>
@@ -3703,6 +4111,40 @@
    <source>J1 4/0@1</source>
   </properties>
   <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 + Drawing</name>
+   <source>'J1+' 4/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 - Drawing</name>
+   <source>'J1-' 4/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#80a8ff</frame-color>
    <fill-color>#80a8ff</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -3718,6 +4160,40 @@
    <animation>0</animation>
    <name>A1 Physical</name>
    <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 + Drawing</name>
+   <source>'A1+' 5/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 - Drawing</name>
+   <source>'A1-' 5/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff80a8</frame-color>
@@ -4094,6 +4570,40 @@
    <source>R3 11/0@1</source>
   </properties>
   <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 + Drawing</name>
+   <source>'R3+' 11/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 - Drawing</name>
+   <source>'R3-' 11/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#800000</frame-color>
    <fill-color>#800000</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -4153,7 +4663,7 @@
    <line-style/>
    <valid>true</valid>
    <visible>true</visible>
-   <transparent>true</transparent>
+   <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
@@ -4305,7 +4815,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -4322,7 +4832,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -4339,7 +4849,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width/>
    <marked>false</marked>
@@ -4573,6 +5083,40 @@
    <source>J1 4/0@1</source>
   </properties>
   <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 + Drawing</name>
+   <source>'J1+' 4/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#8086ff</frame-color>
+   <fill-color>#8086ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>J1 - Drawing</name>
+   <source>'J1-' 4/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#80a8ff</frame-color>
    <fill-color>#80a8ff</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -4588,6 +5132,40 @@
    <animation>0</animation>
    <name>A1 Physical</name>
    <source>A1 5/0@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 + Drawing</name>
+   <source>'A1+' 5/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#80a8ff</frame-color>
+   <fill-color>#80a8ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>A1 - Drawing</name>
+   <source>'A1-' 5/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff80a8</frame-color>
@@ -4964,6 +5542,40 @@
    <source>R3 11/0@1</source>
   </properties>
   <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I5</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 + Drawing</name>
+   <source>'R3+' 11/1@1</source>
+  </properties>
+  <properties>
+   <frame-color>#0080ff</frame-color>
+   <fill-color>#0080ff</fill-color>
+   <frame-brightness>0</frame-brightness>
+   <fill-brightness>0</fill-brightness>
+   <dither-pattern>I9</dither-pattern>
+   <line-style/>
+   <valid>true</valid>
+   <visible>false</visible>
+   <transparent>false</transparent>
+   <width>1</width>
+   <marked>false</marked>
+   <xfill>false</xfill>
+   <animation>0</animation>
+   <name>R3 - Drawing</name>
+   <source>'R3-' 11/2@1</source>
+  </properties>
+  <properties>
    <frame-color>#800000</frame-color>
    <fill-color>#800000</fill-color>
    <frame-brightness>0</frame-brightness>
@@ -5023,7 +5635,7 @@
    <line-style/>
    <valid>true</valid>
    <visible>false</visible>
-   <transparent>true</transparent>
+   <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
    <xfill>false</xfill>
@@ -5175,7 +5787,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -5192,7 +5804,7 @@
    <dither-pattern>I5</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width>1</width>
    <marked>false</marked>
@@ -5209,7 +5821,7 @@
    <dither-pattern>I9</dither-pattern>
    <line-style/>
    <valid>true</valid>
-   <visible>true</visible>
+   <visible>false</visible>
    <transparent>false</transparent>
    <width/>
    <marked>false</marked>

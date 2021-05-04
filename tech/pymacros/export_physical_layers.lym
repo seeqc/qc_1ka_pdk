@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klayout-macro>
+ <description>Export Physical Layers</description>
+ <version/>
+ <category>pymacros</category>
+ <prolog/>
+ <epilog/>
+ <doc/>
+ <autorun>false</autorun>
+ <autorun-early>false</autorun-early>
+ <shortcut/>
+ <show-in-menu>true</show-in-menu>
+ <group-name>seeqc</group-name>
+ <menu-path/>
+ <interpreter>python</interpreter>
+ <dsl-interpreter-name/>
+ <text>import pya
+
+app = pya.Application.instance()
+mw = app.main_window()
+layout_view = mw.current_view()
+
+cell_view = pya.CellView.active()
+
+layout = cell_view.layout()
+
+# Configure save options
+
+opts = pya.SaveLayoutOptions()
+
+
+
+flip_only = True
+if flip_only:
+  #
+  opts.add_this_cell(cell_view.cell.cell_index())
+  #opts.select_this_cell(cell_view.cell.cell_index())
+  opts.deselect_all_layers()
+  opts.add_layer(1, pya.LayerInfo(50, 0))
+  
+else:
+  opts.add_this_cell(cell_view.cell.cell_index())
+
+#opts.deselect_all_layers()
+#opts.add_layer(0, pya.LayerInfo(6, 0))
+
+layout.write(r'C:\Users\caleb\seeqc.com\SFQubit - Documents\Design\Releases\QR03\2QDiagnosticV2\2q_diagnostic_flip_ch1_a.gds', opts)
+</text>
+</klayout-macro>
