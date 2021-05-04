@@ -16,7 +16,7 @@
  <dsl-interpreter-name/>
  <text>import pya
 
-def compile_physical_layer(layer_num, polarity='+', clear=True, pos_tech=1, neg_tech=2):
+def compile_physical_layer(layer_num, polarity='+', clear=True, pos_tech=1, neg_tech=2, phys_tech=0):
   print(f'Compiling physical layer {layer_num}')
 
   # Access current cell
@@ -28,7 +28,7 @@ def compile_physical_layer(layer_num, polarity='+', clear=True, pos_tech=1, neg_
   l_neg = layout.layer(layer_num, neg_tech)
 
   # Physical Layer
-  l_phys = layout.layer(layer_num, 0)
+  l_phys = layout.layer(layer_num, phys_tech)
 
   # Gather regions
   r_pos =  pya.Region(cell.begin_shapes_rec(l_pos))
@@ -97,26 +97,26 @@ compile_physical_layer(8, '-', True)
 compile_physical_layer(10, '+', True)
 
 #### R3 ####
-compile_physical_layer_single(11, True)
+compile_physical_layer(11, '+', True)
 
 #### I3 ####
 compile_physical_layer(13, '-', True)
 
 #### BMP-Cu ####
-compile_physical_layer_single(12,  True)
+#compile_physical_layer_single(12,  True)
 
 #### BMP-In ####
-compile_physical_layer_single(15, True)
+#compile_physical_layer_single(15, True)
 
 #### QM0 ####
 compile_physical_layer(50, '-', True)
-compile_physical_layer(50, '+', False, 3, 4) # Flux Traps
+#compile_physical_layer(50, '+', False, 3, 4, 3) # Flux Traps
 
 #### QR0 ####
-compile_physical_layer_single(51,  True)
+#compile_physical_layer_single(51,  True)
 
 #### QJ0 ####
-compile_physical_layer_single(52,  True)
+#compile_physical_layer_single(52,  True)
 
 #### QM1 ####
 compile_physical_layer(53, '+', True)
