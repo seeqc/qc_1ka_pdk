@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klayout-macro>
+ <description>Generate Flux Traps</description>
+ <version/>
+ <category>pymacros</category>
+ <prolog/>
+ <epilog/>
+ <doc/>
+ <autorun>false</autorun>
+ <autorun-early>false</autorun-early>
+ <shortcut/>
+ <show-in-menu>true</show-in-menu>
+ <group-name/>
+ <menu-path/>
+ <interpreter>python</interpreter>
+ <dsl-interpreter-name/>
+ <text>import pya
+
+## Layout variables
+layout = pya.CellView.active().layout()
+cell = pya.CellView.active().cell
+dbu = layout.dbu
+
+## Options
+qm0_layer = layout.layer(50, 0)
+qm0_pos_layer = layout.layer(50, 1)
+qm0_neg_layer = layout.layer(50, 2)
+ft_layer = layout.layer(50, 3) # Seperate KO Layer
+ko_layer = layout.layer(50, 4)
+
+comp_phys_layer = False # Whether to generate physical layers (overwrites physical layer)
+insert_ko = True # Whether to insert keepout shapes into layer 
+
+ko_size = 20/dbu # 20um in dbu
+ko_round_radius = 20/dbu #um
+
+ft_w = 4/dbu
+ft_g = 8/dbu
+ft_area_width = 4400/dbu
+
+
+  
+# Generate physical layer if required
+
+if comp_phys_layer:
+  # Physical Layer
+  cell.shapes(qm0_layer).clear()
+  l_phys = layout.layer(qm0_layer, 0)
+
+  # Gather regions
+  r_pos =  pya.Region(cell.begin_shapes_rec(qm0_pos_layer))
+  r_neg = pya.Region(cell.begin_shapes_rec(qm0_neg_layer))
+
+  ## Subtract shapes
+  r_final = r_neg - r_pos
+
+else:
+  r_final = pya.Region(cell.begin_shapes_rec(qm0_layer))
+  
+## Size Shapes
+ko_region = r_final.sized(ko_size) # Generate keepout by sizing shapes
+ko_region.merge() # Merge
+ko_region = ko_region.hulls() # Remove holes from merged keepouts
+ko_region.round_corners(ko_round_radius, ko_round_radius, 32) # Round corners
+
+if insert_ko:
+  cell.shapes(ko_layer).clear()
+  cell.shapes(ko_layer).insert(ko_region)
+
+## Create Flux Trap Shape
+flux_trap = pya.Box.new(-ft_w/2, -ft_w/2, ft_w/2, ft_w/2)
+ft_region = pya.Region.new()
+ft_region.insert(flux_trap)
+
+## Create Flux Trap Cell
+ft_cell = layout.add_cell("FLUX_TRAP")
+layout.cell(ft_cell).shapes(ft_layer).insert(ft_region)
+
+## Create Array Instance and place
+trans = pya.Trans.new(pya.Vector(-ft_area_width/2, -ft_area_width/2))
+a = pya.Vector.new(ft_w + ft_g, 0)
+b = pya.Vector.new(0, ft_w + ft_g)
+na = int(ft_area_width / (ft_g + ft_w)) + 1
+nb = int(ft_area_width / (ft_g + ft_w)) + 1
+ft_array = pya.CellInstArray.new(ft_cell, trans, a, b, na, nb)
+
+cell.shapes(ft_layer).clear()
+cell.insert(ft_array)
+
+## Subtract keepout
+ft_array_region = pya.Region(cell.begin_shapes_rec(ft_layer))
+ft_final_region = ft_array_region - ko_region
+cell.shapes(ft_layer).insert(ft_final_region)
+
+## Delete array
+layout.cell(ft_cell).delete()</text>
+</klayout-macro>
